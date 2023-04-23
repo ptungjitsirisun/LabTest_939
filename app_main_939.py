@@ -56,7 +56,7 @@ with tab1:
     x9 = ExerciseAngina_encoder.transform([x9])[0]
 
     #'Oldpeak'
-    x10 = st.slider('Oldpeak', 0, 10, 0)
+    x10 = st.slider('Oldpeak', 0, 10, -10)
 
     #'ST_Slope'
     x11 = st.radio('Select ExerciseAngina', ST_Slope_encoder.classes_)
